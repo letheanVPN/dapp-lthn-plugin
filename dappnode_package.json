@@ -1,0 +1,12 @@
+{
+  "name": "lethean.public.dappnode.eth",
+  "version": "0.1.0",
+  "description": "Lethean confidential blockchain ledger.",
+  "type": "service",
+  "author": "snider",
+  "categories": ["Developer tools"],
+  "links": {
+    "homepage": "https://your-project-homepage-or-docs.io"
+  },
+  "license": "EUPL-1.2"
+}

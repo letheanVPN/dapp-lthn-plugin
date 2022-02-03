@@ -1,0 +1,5 @@
+# DAppNodeSDK release directories
+build_*
+
+# Editor conf
+.idea

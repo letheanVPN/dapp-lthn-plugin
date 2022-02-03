@@ -1,0 +1,6 @@
+version: "3.4"
+services:
+  lethean.public.dappnode.eth:
+    build: .
+    image: "lethean.public.dappnode.eth:0.1.0"
+    restart: unless-stopped
