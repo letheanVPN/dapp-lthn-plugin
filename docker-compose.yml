@@ -2,5 +2,14 @@ version: "3.4"
 services:
   lethean.public.dappnode.eth:
     build: .
-    image: "lethean.public.dappnode.eth:0.1.0"
+    image: "lethean.public.dappnode.eth"
     restart: unless-stopped
+    volumes:
+      - "data:/root/Lethean/data"
+    ports:
+      - "48782"
+      - "48772"
+      - "38772"
+      - "38782"
+volumes:
+  data: {}
